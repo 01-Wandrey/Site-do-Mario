@@ -1,0 +1,60 @@
+main {
+    flex: 1;
+    display: flex;
+    justify-content: space-between; /*ele serve para distribuir o espaço entre as duas imagens sendo o mario e luide para direita e o logo na esquerda*/
+    align-items: center;
+    width: 100%;
+    max-width: 1110px;
+}
+
+.logo_imagem {
+    width: 190px;
+}
+
+.imagem_mario{
+    width: 420px;
+}
+
+.main__info {
+    width: 100%;
+    max-width: 570px;
+}
+
+.main__info p {
+    font-size: 14px;
+    margin: 20px 0 28px;
+}
+
+.main__info div {
+    display: flex;
+    column-gap: 32px; /*afastamento */
+}
+
+.main__info div a, .main__info div button {
+    width: 100%;
+    padding: 20px 0;
+    border-radius: 3px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    transform: skew(-10deg); /* ele serve para deixa a caixa torta como monstra na opção assistir trailler e no compra ingresso */
+}
+
+.main__info div a:hover {
+    background: var(--green);
+}
+
+.main__info div button:hover {
+    background: var(--blue);
+}
+
+.main__info div a {
+     background: var(--red);
+}
+
+.main__info div button {
+    background: transparent;
+    border: 1px solid var(--green);
+}
